@@ -1,0 +1,56 @@
+Html {box-sizing:border-box;}
+*, *::before, *::after {box-sizing:inherit}
+body{
+    background: lightgray;
+}
+
+
+.mem{
+    text-align: center;
+    font-size: 40px;
+    font-family: Helvetica, sans-serif;
+}
+
+#done{
+    text-align: center;
+    font-size: 20px;
+    font-family: Helvetica, sans-serif;
+}
+
+#lives{
+    text-align: center;
+    font-size: 20px;
+    font-family: Helvetica, sans-serif;
+}
+
+.body{
+    width: 1200px;
+    margin: auto;
+}
+
+#cards{
+    font-family: 'Courier New', Courier, monospace;
+    width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+
+#cards div{
+    width: 185px;
+    height: 220px;
+    margin: 5px;
+    border: 1px solid black;
+}
+
+#cards div img{
+    width: 183px;
+    height: 218px;
+    border: 2px solid black;
+}
+
+.cardDown{
+    background: black;
+}
+
